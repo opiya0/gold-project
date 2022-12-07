@@ -10,3 +10,35 @@ background-image: url('images/image.jpg');
     color:blueviolet
 }
 
+.divall{
+    margin:80px;height:500px;border-radius:35px;border:solid 3px rgb(174, 12, 164);
+    animation-name:divall;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes divall{
+    0%{
+        border-color:rgb(94, 0, 87) ;
+    }
+    25%{
+        border-color: rgb(0, 213, 255);
+    }
+    50%{
+        border-color: rgb(255, 19, 200);
+        
+    }
+
+    75%{
+        border-color: rgb(78, 19, 255);
+        
+    }
+
+    100%{
+        border-color: rgb(224, 255, 19);
+        
+    }
+}
+
+
+
